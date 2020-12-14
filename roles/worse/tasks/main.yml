@@ -2,3 +2,11 @@
 - name: echo # noqa 301
   command: |
     "echo This role is good"
+
+- debug:
+  var:
+    {{ my_no_var }}
+
+- name: fail here, but not changed
+  command: |
+    "echo fail here, but you doesnt change here nothing"
