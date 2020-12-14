@@ -2,7 +2,7 @@ Repo for checking ansible lint
 1) Install pre-commit
 https://pre-commit.com/
 
-2) Pull this repo. Role good have error for linter, but i use skip argument for commit
+2) Pull this repo. Role worse have error for linter, but i use skip argument for commit
 
 3) Add this to bad role
 
