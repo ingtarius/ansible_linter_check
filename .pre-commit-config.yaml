@@ -1,0 +1,12 @@
+exclude: .pre-commit-config.yaml
+repos:
+- repo: https://github.com/ansible/ansible-lint.git
+  rev: v4.3.7
+  hooks:
+    - id: ansible-lint
+
+- repo: https://github.com/adrienverge/yamllint.git
+  rev: v1.25.0
+  hooks:
+    - id: yamllint
+      types: [file, yaml]

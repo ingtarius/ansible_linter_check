@@ -1,0 +1,4 @@
+---
+- name: echo # noqa 301
+  command: |
+    "echo This role is good"

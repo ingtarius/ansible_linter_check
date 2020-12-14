@@ -1,0 +1,7 @@
+- name: apply 3 books
+  gather_facts: false
+  hosts: all
+  roles:
+    - good
+    - bad
+    - worse
